@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    height: 660px;
+    width: 100%;
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-title-box{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-picture{
+    height: 200px;
+    width: 200px;
+    background-image: url('../images/profile-pic.jpg');
+    border-radius: 100px;
+    background-size: 200px;
+}

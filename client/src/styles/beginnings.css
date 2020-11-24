@@ -1,17 +1,32 @@
+@media only screen and (max-width: 480px){
+    .beginning-body{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+.beginning-body{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
 .fing-background{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
     height: 440px;
     width: 400px;
+    max-width: 380px;
     background-image: url('../images/finger-guy.jpg');
     background-size: 400px;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 5px;
     box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
-    margin-bottom: 300px;
-    margin-left: 15px;
 }
 
 .fing-quote{
@@ -21,4 +36,16 @@
     color: white;
     text-align: center;
     background-color: rgba(153, 153, 153, 0.342);
+    margin-bottom: 20px;
+}
+
+.sliding-story{
+    margin-top: 10px;
+    height: 440px;
+    width: 600px;
+    max-width: 380px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
+
 }

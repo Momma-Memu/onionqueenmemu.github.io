@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 
 
 const Beginnings = () => {
 
+    const ani = useRef();
+
     return (
-        <div className='fing-background'>
-            <div className='fing-quote'>Always try your best, failure is your greatest ally.</div>
+        <div className='beginning-body'>
+            <div className='fing-background'>
+                <div className='fing-quote'>Don't be afraid of failure, failure is your greatest teacher.</div>
+            </div>
+            <div className='sliding-story' ref={ani}>
+
+            </div>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import Header from './components/Header';
-
+import TechBar from './components/TechBar';
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
+        <TechBar />
       </header>
     </div>
   );

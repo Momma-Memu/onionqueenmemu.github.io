@@ -1,0 +1,66 @@
+.tech-bar-wrapper{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.html-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/html.png');
+    background-size: 70px;
+}
+
+.css-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/css.png');
+    background-size: 62px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.js-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/javascript.png');
+    background-size: 67px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mui-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/material-ui.png');
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pgs-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/postgre.png');
+    background-size: 67px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sqlize-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/sequelize.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.react-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/techpics/react.png');
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

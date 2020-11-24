@@ -1,66 +1,103 @@
 .tech-bar-wrapper{
     display: flex;
     padding: 20px;
-    justify-content: space-around;
+    height: 100px;
+    overflow-x: scroll;
 }
 
 .html-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/html.png');
     background-size: 70px;
+    margin-right: 10px;
 }
 
 .css-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/css.png');
     background-size: 62px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
 }
 
 .js-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/javascript.png');
     background-size: 67px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
 }
 
 .mui-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/material-ui.png');
     background-size: 80px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
 }
 
 .pgs-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/postgre.png');
     background-size: 67px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
 }
 
 .sqlize-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/sequelize.png');
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
 }
 
 .react-logo{
     height: 70px;
     width: 70px;
+    min-width: 70px;
     background-image: url('../images/techpics/react.png');
     background-size: 110px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
+}
+
+.python-logo{
+    height: 70px;
+    width: 70px;
+    min-width: 70px;
+    background-image: url('../images/techpics/python.png');
+    background-size: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.flask-logo{
+    height: 70px;
+    width: 70px;
+    min-width: 70px;
+    background-image: url('../images/techpics/flask.png');
+    background-size: 57px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
 }

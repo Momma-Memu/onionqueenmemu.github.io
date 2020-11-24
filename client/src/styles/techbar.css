@@ -1,8 +1,15 @@
 .tech-bar-wrapper{
     display: flex;
+    align-items: center;
     padding: 20px;
     height: 100px;
     overflow-x: scroll;
+    border-bottom: solid 1px black;
+    margin: 10px;
+}
+
+.tech-bar-wrapper::-webkit-scrollbar{
+    display: none;
 }
 
 .html-logo{
@@ -11,7 +18,15 @@
     min-width: 70px;
     background-image: url('../images/techpics/html.png');
     background-size: 70px;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.html-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .css-logo{
@@ -22,7 +37,15 @@
     background-size: 62px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.css-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .js-logo{
@@ -33,7 +56,15 @@
     background-size: 67px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.js-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .mui-logo{
@@ -44,7 +75,15 @@
     background-size: 80px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.mui-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .pgs-logo{
@@ -55,7 +94,15 @@
     background-size: 67px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.pgs-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .sqlize-logo{
@@ -66,7 +113,15 @@
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.sqlize-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .react-logo{
@@ -77,7 +132,15 @@
     background-size: 110px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.react-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .python-logo{
@@ -88,7 +151,15 @@
     background-size: 64px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    margin-right: auto;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.python-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }
 
 .flask-logo{
@@ -100,4 +171,12 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 10px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.flask-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
 }

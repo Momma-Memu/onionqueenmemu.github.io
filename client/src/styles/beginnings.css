@@ -1,0 +1,24 @@
+.fing-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 440px;
+    width: 400px;
+    background-image: url('../images/finger-guy.jpg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
+    margin-bottom: 300px;
+    margin-left: 15px;
+}
+
+.fing-quote{
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    background-color: rgba(153, 153, 153, 0.342);
+}

@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import TechBar from './components/TechBar';
+import Begginnings from './components/Beginnings';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <TechBar />
       </header>
+      <Begginnings />
     </div>
   );
 }

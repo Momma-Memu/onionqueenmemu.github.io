@@ -17,10 +17,10 @@ class Beginnings extends React.Component {
     }
 
     onScroll = () => {
-        console.log(window.scrollY)
         const scrollTop = window.scrollY;
         this.setState({scrollTop: scrollTop});
         if(this.state.scrollTop > 300){
+            if(this.ani.current.classList.contains('sliding-story')) return;
             this.ani.current.classList.remove('sliding-story-hidden')
             this.ani.current.classList.add('sliding-story')
 

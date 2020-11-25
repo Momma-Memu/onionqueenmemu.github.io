@@ -42,10 +42,10 @@ class Beginnings extends React.Component {
                     <div className='edx-part'>I took a CS50 course hosted by EDX and Harvard. It was this course that made me fall in love with code.</div>
                     <i className="fas fa-arrow-down down-arrow"></i>
                     <div className='arrow-dates'>June 15, 2020</div>
-                    <div className='edx-part'>I started a 6 month long Full Stack Web Development course via App Academy.</div>
+                    <div className='edx-part'>I started a 6 month long, full stack web development course via App Academy.</div>
                     <i className="fas fa-arrow-down down-arrow"></i>
                     <div className='arrow-dates'>November 25, 2020</div>
-                    <div className='edx-part'>I completed the course and was hired promptly by App Academy as a Teaching Assistant.</div>
+                    <div className='edx-part'>I completed the course and was hired promptly by App Academy, as a Teaching Assistant.</div>
                 </div>
             </div>
         )

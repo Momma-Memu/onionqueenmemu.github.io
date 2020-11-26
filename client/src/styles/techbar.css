@@ -54,8 +54,8 @@
 }
 
 .html-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -80,8 +80,8 @@
 }
 
 .css-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -106,8 +106,8 @@
 }
 
 .js-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -126,8 +126,8 @@
 }
 
 .mui-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -158,8 +158,8 @@
 }
 
 .pgs-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -184,8 +184,8 @@
 }
 
 .sqlize-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -210,8 +210,8 @@
 }
 
 .react-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -236,8 +236,8 @@
 }
 
 .python-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }
 
@@ -262,7 +262,7 @@
 }
 
 .flask-logo:hover .tooltiptext{
-    transition: all;
-    transition-duration: 1s;
+    /* transition: all;
+    transition-duration: 1s; */
     opacity: 100%;
 }

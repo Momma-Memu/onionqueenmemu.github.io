@@ -16,21 +16,26 @@
 .tooltiptext{
     opacity: 0%;
     width: 80px;
+    height: 10px;
+    text-align: center;
     font-size: 9px;
     background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-    position: absolute;
-    top: 72px;
-    left: -5px;
+    position: relative;
+    align-self: flex-end;
+    justify-self: center;
+    top: 22px;
     z-index: 1;
     transition: all;
     transition-duration: 1s;
+    margin-top: 1500px;
 }
 
 .html-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -55,6 +60,7 @@
 }
 
 .css-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -80,6 +86,7 @@
 }
 
 .js-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -105,6 +112,7 @@
 }
 
 .mui-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -130,6 +138,7 @@
 }
 
 .pgs-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -155,6 +164,7 @@
 }
 
 .sqlize-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -180,6 +190,7 @@
 }
 
 .react-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -205,6 +216,7 @@
 }
 
 .python-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;
@@ -230,6 +242,7 @@
 }
 
 .flask-logo{
+    display: flex;
     height: 70px;
     width: 70px;
     min-width: 70px;

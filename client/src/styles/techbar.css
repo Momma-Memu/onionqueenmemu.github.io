@@ -12,6 +12,23 @@
     display: none;
 }
 
+.tooltiptext{
+    opacity: 0%;
+    width: 80px;
+    font-size: 9px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 72px;
+    left: -5px;
+    z-index: 1;
+    transition: all;
+    transition-duration: 1s;
+}
+
 .html-logo{
     height: 70px;
     width: 70px;
@@ -23,10 +40,17 @@
     transition-duration: 1s;
 }
 
+
 .html-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.html-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .css-logo{
@@ -45,7 +69,13 @@
 .css-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.css-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .js-logo{
@@ -64,7 +94,13 @@
 .js-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.js-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .mui-logo{
@@ -80,10 +116,16 @@
     transition-duration: 1s;
 }
 
+.mui-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
+}
+
 .mui-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
 }
 
 .pgs-logo{
@@ -102,7 +144,13 @@
 .pgs-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.pgs-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .sqlize-logo{
@@ -121,7 +169,13 @@
 .sqlize-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.sqlize-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .react-logo{
@@ -140,7 +194,13 @@
 .react-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.react-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .python-logo{
@@ -159,7 +219,13 @@
 .python-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.python-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }
 
 .flask-logo{
@@ -178,5 +244,11 @@
 .flask-logo:hover{
     transition: all;
     transition-duration: 1s;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.16, 1.162);
+}
+
+.flask-logo:hover .tooltiptext{
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
 }

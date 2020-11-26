@@ -1,16 +1,15 @@
+.tech-bar-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
 .tech-bar-wrapper{
     display: flex;
     align-items: center;
     padding: 20px;
-    /* padding-left: 5px; */
     height: 100px;
-    overflow-x: scroll;
+    overflow-x: auto;
     border-bottom: solid 1px black;
     margin: 10px;
-}
-
-.tech-bar-wrapper::-webkit-scrollbar{
-    display: none;
 }
 
 .tooltiptext{
@@ -31,7 +30,6 @@
     z-index: 1;
     transition: all;
     transition-duration: 1s;
-    margin-top: 1500px;
 }
 
 .html-logo{

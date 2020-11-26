@@ -13,7 +13,7 @@
 }
 
 .tooltiptext{
-    opacity: 0%;
+    opacity: 0;
     width: 80px;
     height: 10px;
     text-align: center;
@@ -51,10 +51,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.html-logo:hover > .tooltiptext{
+.html-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .css-logo{
@@ -77,10 +77,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.css-logo:hover > .tooltiptext{
+.css-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .js-logo{
@@ -103,10 +103,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.js-logo:hover > .tooltiptext{
+.js-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .mui-logo{
@@ -123,10 +123,10 @@
     transition-duration: 1s;
 }
 
-.mui-logo:hover > .tooltiptext{
+.mui-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .mui-logo:hover{
@@ -155,10 +155,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.pgs-logo:hover > .tooltiptext{
+.pgs-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .sqlize-logo{
@@ -181,10 +181,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.sqlize-logo:hover > .tooltiptext{
+.sqlize-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .react-logo{
@@ -207,10 +207,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.react-logo:hover > .tooltiptext{
+.react-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .python-logo{
@@ -233,10 +233,10 @@
     transform: scale(1.16, 1.162);
 }
 
-.python-logo:hover > .tooltiptext{
+.python-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }
 
 .flask-logo{
@@ -259,8 +259,8 @@
     transform: scale(1.16, 1.162);
 }
 
-.flask-logo:hover > .tooltiptext{
+.flask-logo:hover .tooltiptext{
     /* transition: all;
     transition-duration: 1s; */
-    opacity: 100%;
+    opacity: 100;
 }

@@ -1,6 +1,20 @@
 .divider{
-    margin-top: 500px;
+    margin-top: 350px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: larger;
+    background: linear-gradient(#64b2e6, #41a071);
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
 
+.description{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

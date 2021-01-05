@@ -1,0 +1,37 @@
+.footer-divider{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 350px;
+    margin-bottom: 20px;
+    height: 1px;
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me{
+    font-size: 25px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-linked{
+    color: rgb(24, 73, 138);
+    font-size: 40px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-twitter{
+    color: rgb(56, 120, 204);
+    font-size: 40px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-links{
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+    padding-bottom: 50px;
+}

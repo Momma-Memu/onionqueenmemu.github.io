@@ -4,6 +4,7 @@
 @import url('./styles/beginnings.css');
 @import url('./styles/projects.css');
 @import url('./styles/descriptions.css');
+@import url('./styles/footer.css');
 
 body {
   margin: 0;

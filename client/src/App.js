@@ -3,7 +3,7 @@ import TechBar from './components/TechBar';
 import Begginnings from './components/Beginnings';
 import Projects from './components/Projects';
 import Descriptions from './components/Descriptions';
-// import Vidalia from './components/Vidalia';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -15,7 +15,8 @@ function App() {
       </header>
       <Begginnings />
       <Projects />
-      <Descriptions />
+
+      <Footer />
     </div>
   );
 }

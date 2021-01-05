@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import TechBar from './components/TechBar';
 import Begginnings from './components/Beginnings';
+import Projects from './components/Projects';
+// import Vidalia from './components/Vidalia';
 
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
         <TechBar />
       </header>
       <Begginnings />
+      <Projects />
     </div>
   );
 }

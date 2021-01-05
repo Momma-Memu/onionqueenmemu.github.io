@@ -1,0 +1,210 @@
+/* .projects-wrapper{
+    height: 600px;
+    width: 400px;
+} */
+
+.projects-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 80px;
+    /* border: solid 1px rgb(64, 111, 187); */
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: linear-gradient(#64b2e6, #41a071);
+}
+
+.project-title-v{
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px white;
+    max-width: 80px;
+    max-height: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /* border: solid 1px black; */
+}
+
+.project-title-j{
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px white;
+    max-width: 120px;
+    max-height: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.project-title-w{
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px white;
+    max-width: 120px;
+    max-height: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.project-title-v:hover{
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+
+.project-title-j:hover{
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+
+.project-title-w:hover{
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+
+.project-background-v{
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    background-image: url('../images/websites/vidalia.png');
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 25px;
+    left: 30px;
+    transition: all;
+    transition-duration: 1s;
+    position: relative;
+}
+
+.project-title-v:hover .project-background-v{
+    transition: all;
+    transition-duration: 1s;
+    left: -65px;
+    opacity: 100;
+}
+
+.project-background-j{
+    opacity: 0;
+    height: 250px;
+    width: 400px;
+    background-image: url('../images/websites/jellynettle.png');
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 18px;
+    left: 0px;
+    transition: all;
+    transition-duration: 1s;
+    position: relative;
+
+
+}
+
+.project-title-j:hover .project-background-j{
+    transition: all;
+    transition-duration: 1s;
+    left: -130px;
+    opacity: 100;
+}
+
+.project-background-w{
+    opacity: 0;
+    height: 300px;
+    width: 400px;
+    background-image: url('../images/websites/whilesingle.png');
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 35px;
+    left: 0px;
+    transition: all;
+    transition-duration: 1s;
+    position: relative;
+}
+
+.project-title-w:hover .project-background-w{
+    transition: all;
+    transition-duration: 1s;
+    left: -200px;
+    opacity: 100;
+}
+
+@media only screen and (max-width: 550px) {
+    .project-background-v{
+        opacity: 0;
+        height: 300px;
+        width: 300px;
+        background-image: url('../images/websites/vidalia.png');
+        background-position: center;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        z-index: 1;
+        top: 30px;
+        left: 80px;
+        transition: all;
+        transition-duration: 1s;
+        position: relative;
+    }
+
+    .project-title-v:hover .project-background-v{
+        transition: all;
+        transition-duration: 1s;
+        left: 25px;
+        opacity: 100;
+    }
+
+    .project-background-j{
+        opacity: 0;
+        height: 250px;
+        width: 400px;
+        background-image: url('../images/websites/jellynettle.png');
+        background-position: center;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        z-index: 1;
+        top: 18px;
+        left: 0px;
+        transition: all;
+        transition-duration: 1s;
+        position: relative;
+
+
+    }
+
+    .project-title-j:hover .project-background-j{
+        transition: all;
+        transition-duration: 1s;
+        left: -121px;
+        opacity: 100;
+    }
+
+    .project-background-w{
+        opacity: 0;
+        height: 300px;
+        width: 350px;
+        background-image: url('../images/websites/whilesingle.png');
+        background-position: center;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        z-index: 1;
+        top: 40px;
+        left: 0px;
+        transition: all;
+        transition-duration: 1s;
+        position: relative;
+    }
+
+    .project-title-w:hover .project-background-w{
+        transition: all;
+        transition-duration: 1s;
+        left: -235px;
+        opacity: 100;
+    }
+}

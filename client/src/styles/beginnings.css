@@ -39,6 +39,7 @@
     margin-bottom: 20px;
     transition: all;
     transition-duration: 1s;
+    cursor: default;
 }
 
 .fing-quote:hover{
@@ -58,7 +59,7 @@
     background: linear-gradient(#64b2e6, #41a071);
     border-radius: 5px;
     box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     overflow-y: scroll;
     transition: all;
     transition-duration: 2s;
@@ -75,7 +76,7 @@
     background: linear-gradient(#64b2e6, #41a071);
     border-radius: 5px;
     box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     overflow-y: scroll;
     transition: all;
     transition-duration: 2s;

@@ -2,6 +2,7 @@
 @import url('./styles/header.css');
 @import url('./styles/techbar.css');
 @import url('./styles/beginnings.css');
+@import url('./styles/projects.css');
 
 body {
   margin: 0;

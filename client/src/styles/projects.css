@@ -14,6 +14,8 @@
     margin-right: 10px;
     border-radius: 5px;
     background: linear-gradient(#64b2e6, #41a071);
+    box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
+
 }
 
 .project-title-v{
@@ -74,7 +76,7 @@
     background-size: 300px;
     background-repeat: no-repeat;
     z-index: 1;
-    top: 25px;
+    top: 28px;
     left: 30px;
     transition: all;
     transition-duration: 1s;
@@ -115,14 +117,14 @@
 
 .project-background-w{
     opacity: 0;
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
     background-image: url('../images/websites/whilesingle.png');
     background-position: center;
-    background-size: 400px;
+    background-size: 350px;
     background-repeat: no-repeat;
     z-index: 1;
-    top: 35px;
+    top: 38px;
     left: 0px;
     transition: all;
     transition-duration: 1s;

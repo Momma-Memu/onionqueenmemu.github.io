@@ -3,6 +3,7 @@
 @import url('./styles/techbar.css');
 @import url('./styles/beginnings.css');
 @import url('./styles/projects.css');
+@import url('./styles/descriptions.css');
 
 body {
   margin: 0;

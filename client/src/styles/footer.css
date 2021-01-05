@@ -2,43 +2,34 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 290px;
-    margin-bottom: 20px;
-    height: 1px;
+    height: 60px;
     border-top: solid 1px black;
     display: flex;
+    text-align: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 .contact-me{
     font-size: 25px;
-    margin: 10px;
-    padding-bottom: 50px;
 }
 
 .contact-linked{
     color: rgb(24, 73, 138);
     font-size: 40px;
-    margin: 10px;
-    padding-bottom: 50px;
 }
 
 .contact-twitter{
     color: rgb(56, 120, 204);
     font-size: 40px;
-    margin: 10px;
-    padding-bottom: 50px;
 }
 
 .contact-links{
     color: black;
     font-size: 40px;
-    margin: 10px;
-    padding-bottom: 50px;
 }
 
 .contact-email{
     color: rgb(204, 44, 44);
     font-size: 40px;
-    margin: 10px;
-    padding-bottom: 50px;
 }

@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+.resume{
+    font-size: 35px;
+    color: black;
+}
+
 .contact-me{
     font-size: 25px;
 }

@@ -260,7 +260,29 @@
 }
 
 .flask-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
+    opacity: 100;
+}
+
+.angular-logo{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    min-width: 70px;
+    background-image: url('../images/techpics/angular.png');
+    background-size: 57px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.angular-logo:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: scale(1.16, 1.162);
+}
+
+.angular-logo:hover .tooltiptext{
     opacity: 100;
 }

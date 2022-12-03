@@ -14,8 +14,6 @@ function App() {
         <TechBar />
       </header>
       <Begginnings />
-      <Projects />
-
       <Footer />
     </div>
   );

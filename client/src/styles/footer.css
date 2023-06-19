@@ -1,40 +1,39 @@
-.footer-divider{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 100x;
-    height: 60px;
-    border-top: solid 1px black;
+.footer-divider {
+    margin-top: 1rem;
+    height: 70px;
+    width: auto;
     display: flex;
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 4px 0px 10px 0px rgba(78, 78, 78, 0.342);
 }
 
-.resume{
+.resume {
     font-size: 35px;
-    color: black;
+    color: #414c54;
 }
 
-.contact-me{
+.contact-me {
     font-size: 25px;
 }
 
-.contact-linked{
+.contact-linked {
     color: rgb(24, 73, 138);
     font-size: 40px;
 }
 
-.contact-twitter{
+.contact-twitter {
     color: rgb(56, 120, 204);
     font-size: 40px;
 }
 
-.contact-links{
+.contact-links {
     color: black;
     font-size: 40px;
 }
 
-.contact-email{
+.contact-email {
     color: rgb(204, 44, 44);
     font-size: 40px;
 }

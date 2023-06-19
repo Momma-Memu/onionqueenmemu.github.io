@@ -1,18 +1,20 @@
-@media only screen and (max-width: 480px){
-    .beginning-body{
+@media only screen and (max-width: 480px) {
+    .beginning-body {
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 10px;
     }
 }
 
-.beginning-body{
+.beginning-body {
     display: flex;
     padding: 10px;
     justify-content: space-around;
+    margin-bottom: auto;
 }
 
-.fing-background{
+.fing-background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,23 +28,23 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
-    box-shadow: 4px 5px 10px 2px rgba(88, 88, 88, 0.342);
+    box-shadow: 4px 5px 10px 2px rgba(78, 78, 78, 0.342);
 }
 
-.fing-quote{
+.fing-quote {
     padding: 12px;
     font-size: 25px;
     font-weight: 500;
     color: white;
     text-align: center;
-    background-color: rgba(153, 153, 153, 0.342);
+    background-color: rgba(93, 93, 93, 0.537);
     margin-bottom: 20px;
     transition: all;
     transition-duration: 1s;
     cursor: default;
 }
 
-.sliding-story-hidden{
+.sliding-story-hidden {
     transform: translate(500%);
     display: flex;
     flex-direction: column;
@@ -58,7 +60,7 @@
     transition-duration: 2s;
 }
 
-.sliding-story{
+.sliding-story {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -73,37 +75,37 @@
     transition-duration: 1s;
 }
 
-.sliding-story::-webkit-scrollbar{
+.sliding-story::-webkit-scrollbar {
     display: none;
 }
 
-.timeline{
+.timeline {
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
     color: white;
 }
 
-.down-arrow{
+.down-arrow {
     align-self: center;
     color: white;
     font-size: 28px;
 }
 
-.arrow-dates{
+.arrow-dates {
     margin-top: 15px;
     color: white;
     text-align: center;
 }
 
-.starting-message{
+.starting-message {
     padding: 15px;
     font-size: 18px;
     text-align: center;
     color: white;
 }
 
-.edx-part{
+.edx-part {
     padding: 15px;
     font-size: 18px;
     text-align: center;

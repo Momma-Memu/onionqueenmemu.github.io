@@ -1,18 +1,19 @@
-.tech-bar-wrapper::-webkit-scrollbar{
+.tech-bar-wrapper::-webkit-scrollbar {
     display: none;
 }
 
-.tech-bar-wrapper{
+.tech-bar-wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
-    height: 100px;
+    min-height: 100px;
+    width: auto;
+    box-shadow: 4px 5px 10px 2px rgba(78, 78, 78, 0.342);
     overflow-x: auto;
-    border-bottom: solid 1px black;
-    margin: 10px;
 }
 
-.tooltiptext{
+.tooltiptext {
     opacity: 0;
     width: 80px;
     height: 10px;
@@ -29,260 +30,101 @@
     top: 22px;
     z-index: 1;
     transition: all;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
 
-.html-logo{
-    display: flex;
+.html-logo {
     height: 70px;
     width: 70px;
-    min-width: 70px;
     background-image: url('../images/techpics/html.png');
     background-size: 70px;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-
-.html-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.html-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.css-logo{
-    display: flex;
+.css-logo {
     height: 70px;
     width: 70px;
-    min-width: 70px;
     background-image: url('../images/techpics/css.png');
     background-size: 62px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.css-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.css-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.js-logo{
-    display: flex;
+.js-logo {
     height: 70px;
     width: 70px;
-    min-width: 70px;
     background-image: url('../images/techpics/javascript.png');
     background-size: 67px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.js-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
+.java-logo {
+    height: 70px;
+    width: 52px;
+    background-image: url('../images/techpics/java.png');
+    background-size: 52px;
 }
 
-.js-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.mui-logo{
-    display: flex;
+.mui-logo {
     height: 70px;
     width: 70px;
-    min-width: 70px;
     background-image: url('../images/techpics/material-ui.png');
     background-size: 80px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.mui-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.mui-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.pgs-logo{
-    display: flex;
+.pgs-logo {
     height: 70px;
     width: 70px;
-    min-width: 70px;
     background-image: url('../images/techpics/postgre.png');
     background-size: 67px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.pgs-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.pgs-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.sqlize-logo{
-    display: flex;
+.sqlize-logo {
     height: 70px;
-    width: 70px;
-    min-width: 70px;
+    width: 60px;
     background-image: url('../images/techpics/sequelize.png');
     background-size: 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.sqlize-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.sqlize-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.react-logo{
-    display: flex;
+.react-logo {
     height: 70px;
-    width: 70px;
-    min-width: 70px;
+    width: 65px;
     background-image: url('../images/techpics/react.png');
     background-size: 110px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.react-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.react-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.python-logo{
-    display: flex;
+.python-logo {
     height: 70px;
-    width: 70px;
-    min-width: 70px;
+    width: 65px;
     background-image: url('../images/techpics/python.png');
     background-size: 64px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.python-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.python-logo:hover .tooltiptext{
-    /* transition: all;
-    transition-duration: 1s; */
-    opacity: 100;
-}
-
-.flask-logo{
-    display: flex;
+.flask-logo {
     height: 70px;
-    width: 70px;
-    min-width: 70px;
+    width: 50px;
     background-image: url('../images/techpics/flask.png');
     background-size: 57px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 10px;
-    transition: all;
-    transition-duration: 1s;
 }
 
-.flask-logo:hover{
-    transition: all;
-    transition-duration: 1s;
-    transform: scale(1.16, 1.162);
-}
-
-.flask-logo:hover .tooltiptext{
-    opacity: 100;
-}
-
-.angular-logo{
-    display: flex;
+.angular-logo {
     height: 70px;
-    width: 70px;
-    min-width: 70px;
+    width: 52px;
     background-image: url('../images/techpics/angular.png');
-    background-size: 57px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 10px;
-    transition: all;
-    transition-duration: 1s;
+    background-size: 70px;
 }
 
-.angular-logo:hover{
+.tech-logo {
+    display: flex;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: all;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
+}
+
+.tech-logo:hover {
+    transition: all;
+    transition-duration: 0.3s;
     transform: scale(1.16, 1.162);
 }
 
-.angular-logo:hover .tooltiptext{
+.tech-logo:hover .tooltiptext {
     opacity: 100;
 }

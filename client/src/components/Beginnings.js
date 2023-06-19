@@ -6,8 +6,6 @@ class Beginnings extends React.Component {
 
     constructor(){
         super()
-        this.ani = React.createRef();
-        this.state = { scrollTop: 0 }
     }
 
     render(){

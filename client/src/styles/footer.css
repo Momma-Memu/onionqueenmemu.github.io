@@ -1,6 +1,6 @@
 .footer-divider {
-    height: 70px;
-    width: auto;
+    height: 5%;
+    min-height: 4rem;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -19,20 +19,20 @@
 
 .contact-linked {
     color: rgb(24, 73, 138);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .contact-twitter {
     color: rgb(56, 120, 204);
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .contact-links {
     color: black;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .contact-email {
     color: rgb(204, 44, 44);
-    font-size: 40px;
+    font-size: 3rem;
 }

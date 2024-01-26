@@ -1,130 +1,130 @@
-.tech-bar-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
 .tech-bar-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    min-height: 100px;
-    width: auto;
+    padding: 1.25rem;
+    height: 20%;
+    width: 100%;
     box-shadow: 4px 5px 10px 2px rgba(78, 78, 78, 0.342);
     overflow-x: auto;
 }
 
-.tooltiptext {
-    opacity: 0;
-    width: 80px;
-    height: 10px;
-    text-align: center;
-    font-size: 9px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: relative;
-    align-self: flex-end;
-    justify-self: center;
-    top: 22px;
-    z-index: 1;
-    transition: all;
-    transition-duration: 0.3s;
+.tech-logo-wrapper {
+    /* Flex */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    /* Sizing */
+    width: fit-content;
+    height: fit-content;
+    /* transition: all 0.3s ease; */
+}
+.tech-logo-wrapper:hover > .tech-logo {
+    transform: scale(1.25, 1.25);
+    transform: translateY(-1rem);
 }
 
-.html-logo {
-    height: 70px;
-    width: 70px;
-    background-image: url('../images/techpics/html.png');
-    background-size: 70px;
+.tech-logo-wrapper:hover > .tooltip-wrapper > .tooltiptext {
+    opacity: 1;
 }
 
-.css-logo {
-    height: 70px;
-    width: 70px;
-    background-image: url('../images/techpics/css.png');
-    background-size: 62px;
-}
-
-.js-logo {
-    height: 70px;
-    width: 70px;
-    background-image: url('../images/techpics/javascript.png');
-    background-size: 67px;
-}
-
-.java-logo {
-    height: 70px;
-    width: 52px;
-    background-image: url('../images/techpics/java.png');
-    background-size: 52px;
-}
-
-.mui-logo {
-    height: 70px;
-    width: 70px;
-    background-image: url('../images/techpics/material-ui.png');
-    background-size: 80px;
-}
-
-.pgs-logo {
-    height: 70px;
-    width: 70px;
-    background-image: url('../images/techpics/postgre.png');
-    background-size: 67px;
-}
-
-.sqlize-logo {
-    height: 70px;
-    width: 60px;
-    background-image: url('../images/techpics/sequelize.png');
-    background-size: 70px;
-}
-
-.react-logo {
-    height: 70px;
-    width: 65px;
-    background-image: url('../images/techpics/react.png');
-    background-size: 110px;
-}
-
-.python-logo {
-    height: 70px;
-    width: 65px;
-    background-image: url('../images/techpics/python.png');
-    background-size: 64px;
-}
-
-.flask-logo {
-    height: 70px;
-    width: 50px;
-    background-image: url('../images/techpics/flask.png');
-    background-size: 57px;
-}
-
-.angular-logo {
-    height: 70px;
-    width: 52px;
-    background-image: url('../images/techpics/angular.png');
-    background-size: 70px;
+.tech-bar-wrapper * {
+    display: flex;
+    box-sizing: border-box;
 }
 
 .tech-logo {
-    display: flex;
-    margin-right: 1rem;
-    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
     background-position: center;
-    transition: all;
-    transition-duration: 0.3s;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+    transition: all 0.5s ease;
 }
 
-.tech-logo:hover {
-    transition: all;
-    transition-duration: 0.3s;
-    transform: scale(1.16, 1.162);
+.tooltip-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 0px;
+    width: fit-content;
+    z-index: 1;
 }
 
-.tech-logo:hover .tooltiptext {
-    opacity: 100;
+.tooltiptext {
+    /* Sizing */
+    height: fit-content;
+    width: fit-content;
+
+    /* Color */
+    color: #fff;
+    background-color: black;
+
+    /* Positioning */
+    margin-top: -0.75rem;
+    padding: 0.25rem 0.5rem;
+    
+    /* Border */
+    border-radius: 0.25em;
+
+    /* Transition Properties */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Images */
+
+.html-logo {
+    background-image: url('../images/techpics/html.png');
+}
+
+.css-logo {
+    background-image: url('../images/techpics/css.png');
+}
+
+.javascript-logo {
+    background-image: url('../images/techpics/javascript.png');
+}
+
+.java-logo {
+    background-image: url('../images/techpics/java.png');
+}
+
+.bootstrap-logo {
+    background-image: url('../images/techpics/bootstrap.png');
+}
+
+.postgresql-logo {
+    background-image: url('../images/techpics/postgre.png');
+}
+
+.sequelize-logo {
+    background-image: url('../images/techpics/sequelize.png');
+}
+
+.react-logo {
+    background-image: url('../images/techpics/react.png');
+}
+
+.python-logo {
+    background-image: url('../images/techpics/python.png');
+}
+
+.flask-logo {
+    background-image: url('../images/techpics/flask.png');
+}
+
+.angular-logo {
+    background-image: url('../images/techpics/angular.png');
+}
+
+.vue-logo {
+    background-image: url('../images/techpics/vue.png');
+}
+
+@media only screen and (max-width: 770px) {
+    .tech-bar-wrapper {
+        height: 30%;
+    }
 }

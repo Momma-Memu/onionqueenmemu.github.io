@@ -1,21 +1,44 @@
 import React from 'react';
-
+import html from '../images/techpics/html.png'
+import css from '../images/techpics/css.png'
+import js from '../images/techpics/javascript.png'
+import py from '../images/techpics/python.png'
+import java from '../images/techpics/java.png'
+import pgs from '../images/techpics/postgre.png'
+import sql from '../images/techpics/sequelize.png'
+import flask from '../images/techpics/flask.png'
+import vue from '../images/techpics/vue.png'
+import react from '../images/techpics/react.png'
+import angular from '../images/techpics/angular.png'
+import bootstrap from '../images/techpics/bootstrap.png'
 
 const TechBar = () => {
-
+    const techMap = [
+        { text: 'HTML', logo: html },
+        { text: 'CSS', logo: css },
+        { text: 'JavaScript', logo: js },
+        { text: 'Python', logo: py },
+        { text: 'Java', logo: java },
+        { text: 'PostgreSQL', logo: pgs },
+        { text: 'Sequelize', logo: sql },
+        { text: 'Flask', logo: flask },
+        { text: 'Vue', logo: vue },
+        { text: 'React', logo: react },
+        { text: 'Angular', logo: angular },
+        { text: 'Bootstrap', logo: bootstrap },
+      ]
     return (
         <div className='tech-bar-wrapper'>
-            <div className='html-logo tech-logo'><span className='tooltiptext'>HTML</span></div>
-            <div className='css-logo tech-logo'><span className='tooltiptext'>CSS</span></div>
-            <div className='js-logo tech-logo'><span className='tooltiptext'>JavaScript</span></div>
-            <div className='python-logo tech-logo'><span className='tooltiptext'>Python</span></div>
-            <div className='java-logo tech-logo'><span className='tooltiptext'>Java</span></div>
-            <div className='mui-logo tech-logo'><span className='tooltiptext'>Material-UI</span></div>
-            <div className='pgs-logo tech-logo'><span className='tooltiptext'>PostgreSQL</span></div>
-            <div className='sqlize-logo tech-logo'><span className='tooltiptext'>Sequelize</span></div>
-            <div className='react-logo tech-logo'><span className='tooltiptext'>React</span></div>
-            <div className='flask-logo tech-logo'><span className='tooltiptext'>Flask</span></div>
-            <div className='angular-logo tech-logo'><span className='tooltiptext'>Angular</span></div>
+            {
+                techMap.map((tech) => (
+                    <div className='tech-logo-wrapper' key={tech.text}>
+                        <div className={`tech-logo ${tech.text.toLowerCase()}-logo`} alt={`${tech.text} logo.`}></div>
+                        <div className='tooltip-wrapper'>
+                            <div className='tooltiptext'>{tech.text}</div>
+                        </div>
+                    </div>
+                ))
+            }
         </div>
     )
 }

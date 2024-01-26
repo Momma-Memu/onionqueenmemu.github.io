@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    height: 540px;
+    height: 80%;
     width: 100%;
     background-image: url('../images/bg1.jpg');
     background-size: cover;
@@ -15,22 +15,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: bold;
     color: white;
+    height: inherit;
 }
 
 .profile-picture {
-    height: 200px;
-    width: 200px;
-    background-image: url('../images/profile-pic.jpg');
-    border-radius: 100px;
-    background-size: 200px;
+    height: 100%;
+    min-height: 75%;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px 0px rgba(65, 65, 65, 0.43);
 }
 
 .header-quote {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: normal;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+    .header {
+        height: 70%;
+    }
 }

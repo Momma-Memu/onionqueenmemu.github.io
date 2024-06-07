@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    height: 80%;
+    height: 30rem;
     width: 100%;
     background-image: url('../images/bg1.jpg');
     background-size: cover;
@@ -22,10 +22,13 @@
 }
 
 .profile-picture {
-    height: 100%;
-    min-height: 75%;
+    height: 15rem;
     border-radius: 100%;
     box-shadow: 2px 2px 5px 0px rgba(65, 65, 65, 0.43);
+}
+
+img {
+    margin: 1rem;
 }
 
 .header-quote {

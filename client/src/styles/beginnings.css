@@ -11,12 +11,13 @@
 }
 
 .ui-card {
+    min-height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
-    height: 100%;
     width: 100%;
+    height: 500px;
     max-width: 500px;
     border-radius: 0.5rem;
     box-sizing: border-box;

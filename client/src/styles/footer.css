@@ -1,6 +1,7 @@
 .footer-divider {
     height: 5%;
-    min-height: 4rem;
+    min-height: fit-content;
+    padding: 0.5rem;
     display: flex;
     text-align: center;
     justify-content: space-around;
